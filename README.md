@@ -39,7 +39,7 @@ Board used:  Digilent ZedBoard Zynq®-7000 ARM/FPGA SoC Development Board
 
 Vivado Version: 2018.1
 
-Brief description of project: A trained Convolutional Neural Network has been implemented on an FPGA evaluation board, ZedBoard Zynq-7000 FPGA.
+Brief description of project: A trained Convolutional Neural Network has been implemented on an FPGA evaluation board, ZedBoard Zynq-7000 FPGA, focused on fingerspelling recognition.
 
 Description of archive (explain directory structure, documents and source files):
 
