@@ -146,18 +146,6 @@ module CNN(
             else if ( ws_FC_count == 17) begin FC_read <= 4'hf; ws_FC <= 0; end
         end else begin ws_FC <= 0;ws_FC_count <= 0; end
         
-        /*if (FC_done && FC_read != 4'hf)
-        begin
-            FC_read <= FC_read + 1;
-            ws_FC <= 1;
-        end 
-        else if ( ws_FC_done == 1 && FC_read == 4'hf )
-        begin
-            FC_read <= 4'hf;
-            ws_FC <= 0;
-            //ws_FC_done <= 0;
-        end else if ( FC_done && ws_FC_done == 0 ) begin FC_read <= 0; ws_FC_done <= 1; end*/
- 
     end
     
     //==============================================================\\
