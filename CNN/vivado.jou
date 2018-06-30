@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jul  1 00:14:17 2018
+# Process ID: 2624
+# Current directory: E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7088 E:\ITU\Spring 2018\EHB 425E\FINAL_PROJECT\CNN\CNN.xpr
+# Log file: E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN/vivado.log
+# Journal file: E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN/CNN.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_simulation -simset sim_1 -mode behavioral

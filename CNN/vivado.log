@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jul  1 00:14:17 2018
+# Process ID: 2624
+# Current directory: E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7088 E:\ITU\Spring 2018\EHB 425E\FINAL_PROJECT\CNN\CNN.xpr
+# Log file: E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN/vivado.log
+# Journal file: E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN/CNN.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ITU/Spring 2018/EHB 425E/FINAL_PROJECT/CNN/CNN.srcs/sources_1/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 882.398 ; gain = 131.969
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jul  1 00:53:50 2018...

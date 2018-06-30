@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_CNN_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_CNN" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="407480000000fs"></ZoomStartTime>
+      <ZoomEndTime time="416990000001fs"></ZoomEndTime>
+      <Cursor1Time time="411565000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="372525000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TB_CNN/uut/maxpool2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2_out" type="array">
+      <obj_property name="ElementShortName">conv2_out[35:0]</obj_property>
+      <obj_property name="ObjectShortName">conv2_out[35:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws_conv2" type="logic">
+      <obj_property name="ElementShortName">ws_conv2</obj_property>
+      <obj_property name="ObjectShortName">ws_conv2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/relu2_out" type="array">
+      <obj_property name="ElementShortName">relu2_out[35:0]</obj_property>
+      <obj_property name="ObjectShortName">relu2_out[35:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws_relu2" type="logic">
+      <obj_property name="ElementShortName">ws_relu2</obj_property>
+      <obj_property name="ObjectShortName">ws_relu2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/mx2_done" type="array">
+      <obj_property name="ElementShortName">mx2_done[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mx2_done[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/mx2_count" type="array">
+      <obj_property name="ElementShortName">mx2_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mx2_count[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/mx2_output" type="array">
+      <obj_property name="ElementShortName">mx2_output[35:0]</obj_property>
+      <obj_property name="ObjectShortName">mx2_output[35:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool2/count1" type="array">
+      <obj_property name="ElementShortName">count1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool2/count2" type="array">
+      <obj_property name="ElementShortName">count2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC_count" type="array">
+      <obj_property name="ElementShortName">FC_count[5:0]</obj_property>
+      <obj_property name="ObjectShortName">FC_count[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC_read" type="array">
+      <obj_property name="ElementShortName">FC_read[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FC_read[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC_start" type="logic">
+      <obj_property name="ElementShortName">FC_start</obj_property>
+      <obj_property name="ObjectShortName">FC_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC_output" type="array">
+      <obj_property name="ElementShortName">FC_output[39:0]</obj_property>
+      <obj_property name="ObjectShortName">FC_output[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws_FC" type="logic">
+      <obj_property name="ElementShortName">ws_FC</obj_property>
+      <obj_property name="ObjectShortName">ws_FC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws_FC_count" type="array">
+      <obj_property name="ElementShortName">ws_FC_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ws_FC_count[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC_done" type="logic">
+      <obj_property name="ElementShortName">FC_done</obj_property>
+      <obj_property name="ObjectShortName">FC_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC/NODE_0/OUT" type="array">
+      <obj_property name="ElementShortName">OUT[39:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC/COUNT" type="array">
+      <obj_property name="ElementShortName">COUNT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC_input" type="array">
+      <obj_property name="ElementShortName">FC_input[35:0]</obj_property>
+      <obj_property name="ObjectShortName">FC_input[35:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC/NODE_0/accumulator" type="array">
+      <obj_property name="ElementShortName">accumulator[39:0]</obj_property>
+      <obj_property name="ObjectShortName">accumulator[39:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC/A" type="array">
+      <obj_property name="ElementShortName">A[35:0]</obj_property>
+      <obj_property name="ObjectShortName">A[35:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC/NODE_0/weights" type="array">
+      <obj_property name="ElementShortName">weights[63:0][8:0]</obj_property>
+      <obj_property name="ObjectShortName">weights[63:0][8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/FC/NODE_0/bias" type="array">
+      <obj_property name="ElementShortName">bias[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bias[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>

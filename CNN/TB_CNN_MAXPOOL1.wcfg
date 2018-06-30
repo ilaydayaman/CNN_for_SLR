@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_CNN_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_CNN" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="400842833333fs"></ZoomStartTime>
+      <ZoomEndTime time="401031433334fs"></ZoomEndTime>
+      <Cursor1Time time="401000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="45025000000" label="" />
+      <marker time="359235000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TB_CNN/uut/conv1/filter" type="array">
+      <obj_property name="ElementShortName">filter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">filter[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv1/write_strobe/count" type="array">
+      <obj_property name="ElementShortName">count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">count[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv1/write_strobe/count2" type="array">
+      <obj_property name="ElementShortName">count2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count2[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv1_output" type="array">
+      <obj_property name="ElementShortName">conv1_output[22:0]</obj_property>
+      <obj_property name="ObjectShortName">conv1_output[22:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws" type="logic">
+      <obj_property name="ElementShortName">ws</obj_property>
+      <obj_property name="ObjectShortName">ws</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ry" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ry[21:0]</obj_property>
+      <obj_property name="ObjectShortName">ry[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">relu_output[21:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws_relu" type="logic">
+      <obj_property name="ElementShortName">ws_relu</obj_property>
+      <obj_property name="ObjectShortName">ws_relu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/mx1_output" type="array">
+      <obj_property name="ElementShortName">mx1_output[21:0]</obj_property>
+      <obj_property name="ObjectShortName">mx1_output[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/mx_done" type="array">
+      <obj_property name="ElementShortName">mx_done[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mx_done[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/BR_count" type="array">
+      <obj_property name="ElementShortName">BR_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BR_count[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/addr" type="array">
+      <obj_property name="ElementShortName">addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/count1" type="array">
+      <obj_property name="ElementShortName">count1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/count2" type="array">
+      <obj_property name="ElementShortName">count2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">count2[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/counter64/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp1" type="array">
+      <obj_property name="ElementShortName">temp1[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp1[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp2" type="array">
+      <obj_property name="ElementShortName">temp2[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp2[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp3" type="array">
+      <obj_property name="ElementShortName">temp3[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp3[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp4" type="array">
+      <obj_property name="ElementShortName">temp4[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp4[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp5" type="array">
+      <obj_property name="ElementShortName">temp5[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp5[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp6" type="array">
+      <obj_property name="ElementShortName">temp6[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp6[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp7" type="array">
+      <obj_property name="ElementShortName">temp7[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp7[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/maxpool1/temp8" type="array">
+      <obj_property name="ElementShortName">temp8[21:0]</obj_property>
+      <obj_property name="ObjectShortName">temp8[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/bmg8/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/bmg8/addra" type="array">
+      <obj_property name="ElementShortName">addra[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/bmg8/dina" type="array">
+      <obj_property name="ElementShortName">dina[21:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

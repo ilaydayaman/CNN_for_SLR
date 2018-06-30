@@ -1,0 +1,197 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun  6 15:20:49 2018
+# Process ID: 7196
+# Current directory: C:/Users/Tarik/Desktop/CNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1632 C:\Users\Tarik\Desktop\CNN\CNN.xpr
+# Log file: C:/Users/Tarik/Desktop/CNN/vivado.log
+# Journal file: C:/Users/Tarik/Desktop/CNN\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Tarik/Desktop/CNN/CNN.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Tarik/Desktop/CNN/TB_CNN_behav.wcfg
+open_wave_config C:/Users/Tarik/Desktop/CNN/TB_CNN_behav1.wcfg
+source TB_CNN.tcl
+create_wave_config
+restart
+run 400000 ns
+restart
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg
+set_property xsim.view {C:/Users/Tarik/Desktop/CNN/TB_CNN_behav.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_behav1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg} [get_filesets sim_1]
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+restart
+run 400000 ns
+relaunch_sim
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg}
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg}
+create_wave_config
+restart
+run 400000 ns
+restart
+run 400000 ns
+restart
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_MAXPOOL1.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Tarik/Desktop/CNN/TB_CNN_MAXPOOL1.wcfg
+set_property xsim.view {C:/Users/Tarik/Desktop/CNN/TB_CNN_behav.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_behav1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_MAXPOOL1.wcfg} [get_filesets sim_1]
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+create_wave_config
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+restart
+run 400000 ns
+relaunch_sim
+run 400000 ns
+restart
+run 400000 ns
+relaunch_sim
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg
+set_property xsim.view {C:/Users/Tarik/Desktop/CNN/TB_CNN_behav.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_behav1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_MAXPOOL1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg} [get_filesets sim_1]
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg}
+relaunch_sim
+run 400000 ns
+restart
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+restart
+run 400000 ns
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg}
+relaunch_sim
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+restart
+run 400000 ns
+restart
+run 400000 ns
+restart
+run 400000 ns
+relaunch_sim
+relaunch_sim
+run 400000 ns
+relaunch_sim
+relaunch_sim
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg}
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_MAXPOOL1.wcfg}
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg}
+create_wave_config
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_FC.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Tarik/Desktop/CNN/TB_CNN_FC.wcfg
+set_property xsim.view {C:/Users/Tarik/Desktop/CNN/TB_CNN_behav.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_behav1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_MAXPOOL1.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_CONV2.wcfg C:/Users/Tarik/Desktop/CNN/TB_CNN_FC.wcfg} [get_filesets sim_1]
+relaunch_sim
+run 400000 ns
+restart
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_FC.wcfg}
+relaunch_sim
+restart
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_FC.wcfg}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+save_wave_config {C:/Users/Tarik/Desktop/CNN/TB_CNN_FC.wcfg}
+restart
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim
+run 400000 ns
+relaunch_sim

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_CNN_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_CNN" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="400460736108fs"></ZoomStartTime>
+      <ZoomEndTime time="401107852779fs"></ZoomEndTime>
+      <Cursor1Time time="401000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="129" />
+   <wave_markers>
+      <marker time="360255000000" label="" />
+      <marker time="359445000000" label="" />
+      <marker time="360075000000" label="" />
+      <marker time="360145000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TB_CNN/uut/conv2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G1" type="array">
+      <obj_property name="ElementShortName">G1[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G1[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G2" type="array">
+      <obj_property name="ElementShortName">G2[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G2[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G3" type="array">
+      <obj_property name="ElementShortName">G3[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G3[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G4" type="array">
+      <obj_property name="ElementShortName">G4[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G4[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G5" type="array">
+      <obj_property name="ElementShortName">G5[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G5[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G6" type="array">
+      <obj_property name="ElementShortName">G6[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G6[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G7" type="array">
+      <obj_property name="ElementShortName">G7[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G7[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/G8" type="array">
+      <obj_property name="ElementShortName">G8[21:0]</obj_property>
+      <obj_property name="ObjectShortName">G8[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G1_1" type="array">
+      <obj_property name="ElementShortName">G1_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G1_1[22:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G1_2" type="array">
+      <obj_property name="ElementShortName">G1_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G1_2[22:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G1_3" type="array">
+      <obj_property name="ElementShortName">G1_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G1_3[22:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G1_4" type="array">
+      <obj_property name="ElementShortName">G1_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G1_4[22:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G2_1" type="array">
+      <obj_property name="ElementShortName">G2_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G2_1[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G2_2" type="array">
+      <obj_property name="ElementShortName">G2_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G2_2[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G2_3" type="array">
+      <obj_property name="ElementShortName">G2_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G2_3[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G2_4" type="array">
+      <obj_property name="ElementShortName">G2_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G2_4[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G3_1" type="array">
+      <obj_property name="ElementShortName">G3_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G3_1[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G3_2" type="array">
+      <obj_property name="ElementShortName">G3_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G3_2[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G3_3" type="array">
+      <obj_property name="ElementShortName">G3_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G3_3[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G3_4" type="array">
+      <obj_property name="ElementShortName">G3_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G3_4[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G4_1" type="array">
+      <obj_property name="ElementShortName">G4_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G4_1[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G4_2" type="array">
+      <obj_property name="ElementShortName">G4_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G4_2[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G4_3" type="array">
+      <obj_property name="ElementShortName">G4_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G4_3[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G4_4" type="array">
+      <obj_property name="ElementShortName">G4_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G4_4[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G5_1" type="array">
+      <obj_property name="ElementShortName">G5_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G5_1[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G5_2" type="array">
+      <obj_property name="ElementShortName">G5_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G5_2[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G5_3" type="array">
+      <obj_property name="ElementShortName">G5_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G5_3[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G5_4" type="array">
+      <obj_property name="ElementShortName">G5_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G5_4[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G6_1" type="array">
+      <obj_property name="ElementShortName">G6_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G6_1[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G6_2" type="array">
+      <obj_property name="ElementShortName">G6_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G6_2[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G6_3" type="array">
+      <obj_property name="ElementShortName">G6_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G6_3[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G6_4" type="array">
+      <obj_property name="ElementShortName">G6_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G6_4[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G7_1" type="array">
+      <obj_property name="ElementShortName">G7_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G7_1[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G7_2" type="array">
+      <obj_property name="ElementShortName">G7_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G7_2[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G7_3" type="array">
+      <obj_property name="ElementShortName">G7_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G7_3[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G7_4" type="array">
+      <obj_property name="ElementShortName">G7_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G7_4[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G8_1" type="array">
+      <obj_property name="ElementShortName">G8_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G8_1[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G8_2" type="array">
+      <obj_property name="ElementShortName">G8_2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G8_2[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G8_3" type="array">
+      <obj_property name="ElementShortName">G8_3[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G8_3[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/G8_4" type="array">
+      <obj_property name="ElementShortName">G8_4[22:0]</obj_property>
+      <obj_property name="ObjectShortName">G8_4[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W1_1" type="array">
+      <obj_property name="ElementShortName">W1_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W1_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W1_2" type="array">
+      <obj_property name="ElementShortName">W1_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W1_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W1_3" type="array">
+      <obj_property name="ElementShortName">W1_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W1_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W1_4" type="array">
+      <obj_property name="ElementShortName">W1_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W1_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W2_1" type="array">
+      <obj_property name="ElementShortName">W2_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W2_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W2_2" type="array">
+      <obj_property name="ElementShortName">W2_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W2_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W2_3" type="array">
+      <obj_property name="ElementShortName">W2_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W2_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W2_4" type="array">
+      <obj_property name="ElementShortName">W2_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W2_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W3_1" type="array">
+      <obj_property name="ElementShortName">W3_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W3_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W3_2" type="array">
+      <obj_property name="ElementShortName">W3_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W3_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W3_3" type="array">
+      <obj_property name="ElementShortName">W3_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W3_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W3_4" type="array">
+      <obj_property name="ElementShortName">W3_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W3_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W4_1" type="array">
+      <obj_property name="ElementShortName">W4_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W4_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W4_2" type="array">
+      <obj_property name="ElementShortName">W4_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W4_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W4_3" type="array">
+      <obj_property name="ElementShortName">W4_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W4_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W4_4" type="array">
+      <obj_property name="ElementShortName">W4_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W4_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W5_1" type="array">
+      <obj_property name="ElementShortName">W5_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W5_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W5_2" type="array">
+      <obj_property name="ElementShortName">W5_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W5_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W5_3" type="array">
+      <obj_property name="ElementShortName">W5_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W5_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W5_4" type="array">
+      <obj_property name="ElementShortName">W5_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W5_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W6_1" type="array">
+      <obj_property name="ElementShortName">W6_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W6_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W6_2" type="array">
+      <obj_property name="ElementShortName">W6_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W6_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W6_3" type="array">
+      <obj_property name="ElementShortName">W6_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W6_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W6_4" type="array">
+      <obj_property name="ElementShortName">W6_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W6_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W7_1" type="array">
+      <obj_property name="ElementShortName">W7_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W7_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W7_2" type="array">
+      <obj_property name="ElementShortName">W7_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W7_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W7_3" type="array">
+      <obj_property name="ElementShortName">W7_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W7_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W7_4" type="array">
+      <obj_property name="ElementShortName">W7_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W7_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W8_1" type="array">
+      <obj_property name="ElementShortName">W8_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W8_1[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W8_2" type="array">
+      <obj_property name="ElementShortName">W8_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W8_2[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W8_3" type="array">
+      <obj_property name="ElementShortName">W8_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W8_3[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/W8_4" type="array">
+      <obj_property name="ElementShortName">W8_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">W8_4[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a1" type="array">
+      <obj_property name="ElementShortName">a1[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a1[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a2" type="array">
+      <obj_property name="ElementShortName">a2[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a2[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a3" type="array">
+      <obj_property name="ElementShortName">a3[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a3[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a4" type="array">
+      <obj_property name="ElementShortName">a4[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a4[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a5" type="array">
+      <obj_property name="ElementShortName">a5[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a5[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a6" type="array">
+      <obj_property name="ElementShortName">a6[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a6[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a7" type="array">
+      <obj_property name="ElementShortName">a7[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a7[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a8" type="array">
+      <obj_property name="ElementShortName">a8[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a8[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a9" type="array">
+      <obj_property name="ElementShortName">a9[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a9[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a10" type="array">
+      <obj_property name="ElementShortName">a10[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a10[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a11" type="array">
+      <obj_property name="ElementShortName">a11[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a11[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a12" type="array">
+      <obj_property name="ElementShortName">a12[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a12[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a13" type="array">
+      <obj_property name="ElementShortName">a13[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a13[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a14" type="array">
+      <obj_property name="ElementShortName">a14[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a14[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a15" type="array">
+      <obj_property name="ElementShortName">a15[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a15[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a16" type="array">
+      <obj_property name="ElementShortName">a16[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a16[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a17" type="array">
+      <obj_property name="ElementShortName">a17[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a17[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a18" type="array">
+      <obj_property name="ElementShortName">a18[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a18[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a19" type="array">
+      <obj_property name="ElementShortName">a19[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a19[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a20" type="array">
+      <obj_property name="ElementShortName">a20[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a20[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a21" type="array">
+      <obj_property name="ElementShortName">a21[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a21[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a22" type="array">
+      <obj_property name="ElementShortName">a22[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a22[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a23" type="array">
+      <obj_property name="ElementShortName">a23[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a23[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a24" type="array">
+      <obj_property name="ElementShortName">a24[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a24[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a25" type="array">
+      <obj_property name="ElementShortName">a25[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a25[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a26" type="array">
+      <obj_property name="ElementShortName">a26[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a26[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a27" type="array">
+      <obj_property name="ElementShortName">a27[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a27[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a28" type="array">
+      <obj_property name="ElementShortName">a28[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a28[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a29" type="array">
+      <obj_property name="ElementShortName">a29[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a29[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a30" type="array">
+      <obj_property name="ElementShortName">a30[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a30[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a31" type="array">
+      <obj_property name="ElementShortName">a31[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a31[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a32" type="array">
+      <obj_property name="ElementShortName">a32[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a32[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/s1" type="array">
+      <obj_property name="ElementShortName">s1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/ss1" type="array">
+      <obj_property name="ElementShortName">ss1[32:0]</obj_property>
+      <obj_property name="ObjectShortName">ss1[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/sss1" type="array">
+      <obj_property name="ElementShortName">sss1[33:0]</obj_property>
+      <obj_property name="ObjectShortName">sss1[33:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/ssss1" type="array">
+      <obj_property name="ElementShortName">ssss1[34:0]</obj_property>
+      <obj_property name="ObjectShortName">ssss1[34:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/result" type="array">
+      <obj_property name="ElementShortName">result[35:0]</obj_property>
+      <obj_property name="ObjectShortName">result[35:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/count1" type="array">
+      <obj_property name="ElementShortName">count1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/count2" type="array">
+      <obj_property name="ElementShortName">count2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/conv2_done" type="logic">
+      <obj_property name="ElementShortName">conv2_done</obj_property>
+      <obj_property name="ObjectShortName">conv2_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/addr" type="array">
+      <obj_property name="ElementShortName">addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/y" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">y[35:0]</obj_property>
+      <obj_property name="ObjectShortName">y[35:0]</obj_property>
+      <obj_property name="label">conv2_output[35:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws_conv2" type="logic">
+      <obj_property name="ElementShortName">ws_conv2</obj_property>
+      <obj_property name="ObjectShortName">ws_conv2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2_done2" type="logic">
+      <obj_property name="ElementShortName">conv2_done2</obj_property>
+      <obj_property name="ObjectShortName">conv2_done2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/relu2_out" type="array">
+      <obj_property name="ElementShortName">relu2_out[35:0]</obj_property>
+      <obj_property name="ObjectShortName">relu2_out[35:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/ws_relu2" type="logic">
+      <obj_property name="ElementShortName">ws_relu2</obj_property>
+      <obj_property name="ObjectShortName">ws_relu2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/relu2_done" type="logic">
+      <obj_property name="ElementShortName">relu2_done</obj_property>
+      <obj_property name="ObjectShortName">relu2_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/ws_count" type="array">
+      <obj_property name="ElementShortName">ws_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ws_count[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/ws_count2" type="array">
+      <obj_property name="ElementShortName">ws_count2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ws_count2[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/filter" type="array">
+      <obj_property name="ElementShortName">filter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">filter[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/result" type="array">
+      <obj_property name="ElementShortName">result[35:0]</obj_property>
+      <obj_property name="ObjectShortName">result[35:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/ssss2" type="array">
+      <obj_property name="ElementShortName">ssss2[34:0]</obj_property>
+      <obj_property name="ObjectShortName">ssss2[34:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/sss4" type="array">
+      <obj_property name="ElementShortName">sss4[33:0]</obj_property>
+      <obj_property name="ObjectShortName">sss4[33:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/ss8" type="array">
+      <obj_property name="ElementShortName">ss8[32:0]</obj_property>
+      <obj_property name="ObjectShortName">ss8[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/s16" type="array">
+      <obj_property name="ElementShortName">s16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s16[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_CNN/uut/conv2/a32" type="array">
+      <obj_property name="ElementShortName">a32[30:0]</obj_property>
+      <obj_property name="ObjectShortName">a32[30:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
