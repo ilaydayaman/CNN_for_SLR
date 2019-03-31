@@ -32,9 +32,6 @@ ilaydayaman@gmail.com
 
 mttamyurek@gmail.com
 
-burakmert@gonultas.org 
-
-
 Board used:  Digilent ZedBoard Zynq®-7000 ARM/FPGA SoC Development Board
 
 Vivado Version: 2018.1
