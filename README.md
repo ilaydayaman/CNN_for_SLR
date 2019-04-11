@@ -23,7 +23,7 @@ Ilayda Yaman
 
 M. Tarik Tamyurek 
 
-Burak M. Gonultas
+Burak M. Gonultas https://www.linkedin.com/in/burak-mert-gonultas-94b045b1/
 
 
 Email:
