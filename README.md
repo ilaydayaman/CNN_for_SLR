@@ -19,7 +19,7 @@ Supervisor e-mail: Siddika.ors@itu.edu.tr
 
 Participant(s):
 
-Ilayda Yaman 
+Ilayda Yaman https://www.linkedin.com/in/ilayda-yaman-9bba0ab1/
 
 M. Tarik Tamyurek 
 
