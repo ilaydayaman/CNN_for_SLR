@@ -32,6 +32,8 @@ ilaydayaman@gmail.com
 
 mttamyurek@gmail.com
 
+gonul004 [at] umn.edu
+
 Board used:  Digilent ZedBoard Zynq®-7000 ARM/FPGA SoC Development Board
 
 Vivado Version: 2018.1
