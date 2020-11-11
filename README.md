@@ -1,6 +1,6 @@
 # CNN_for_SLR
 A trained Convolutional Neural Network implemented on ZedBoard Zynq-7000 FPGA.
-
+Link to YouTube Video(s): https://www.youtube.com/watch?v=xoB--RFfy6I&feature=youtu.be
 
 Team number: xohw18-311
 
@@ -56,4 +56,4 @@ Step 3: Obtain results for the hardware design
 
 Step 4: Compare it with MATLAB results by running the "CNN.m" file inside the MATLAB_Code folder 
 
-Link to YouTube Video(s): https://www.youtube.com/watch?v=xoB--RFfy6I&feature=youtu.be
+
