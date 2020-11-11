@@ -2,8 +2,6 @@
 A trained Convolutional Neural Network implemented on ZedBoard Zynq-7000 FPGA.
 Link to YouTube Video(s): https://www.youtube.com/watch?v=xoB--RFfy6I&feature=youtu.be
 
-Team number: xohw18-311
-
 Project name: BeeBoard
 
 Date: 30-Jul_2018
