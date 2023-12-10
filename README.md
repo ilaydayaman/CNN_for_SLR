@@ -26,8 +26,6 @@ Burak M. Gonultas https://www.linkedin.com/in/burak-mert-gonultas-94b045b1/
 
 Email:
 
-ilayda.yaman@eit.lth.se
-
 mttamyurek@gmail.com
 
 gonul004 [at] umn.edu
