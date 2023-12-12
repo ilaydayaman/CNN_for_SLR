@@ -52,4 +52,24 @@ Step 3: Obtain results for the hardware design
 
 Step 4: Compare it with MATLAB results by running the "CNN.m" file inside the MATLAB_Code folder 
 
+FAQ:
 
+Q: Which dataset has been used for training the CNN model?
+
+We used LSA16 Argentinian Sign Language dataset: http://facundoq.github.io/datasets/lsa16/
+
+Q: What do the output values correspond to?
+
+See http://facundoq.github.io/datasets/lsa16/.
+
+Q: Are the weights shared in this repo reliable?
+
+Nope.
+
+Q: Are the designs reliable and do you think it's a good idea to just copy and paste into my design?
+
+I wouldn't bet on it.
+
+Q: Should I expect solid results when I run the project?
+
+Can't promise. Please understand that this was a class project done by 3 undergrad students. But still we worked hard on it and were satisfied with our designs at the end of the project. So feel free to use it as a reference.
