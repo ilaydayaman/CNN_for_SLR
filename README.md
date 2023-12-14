@@ -28,7 +28,7 @@ Email:
 
 mttamyurek@gmail.com
 
-gonul004 [at] umn.edu
+gonultasbu [at] gmail [dot] com
 
 Board used:  Digilent ZedBoard Zynq®-7000 ARM/FPGA SoC Development Board
 
